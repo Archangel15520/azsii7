@@ -105,7 +105,7 @@ def train_gan(generator, discriminator, gan, epochs=1000, batch_size=64):
 train_gan(generator, discriminator, gan)
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii7/blob/main/screenshot/1.JPG)
 
 ## Шаг 2. Генерация противоречивых примеров с помощью GAN
 
@@ -134,7 +134,7 @@ for i in range(10):
 plt.show()
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii7/blob/main/screenshot/2.JPG)
 
 ## Шаг 3: Генерация противоречивых примеров с помощью GAN
 
@@ -209,7 +209,7 @@ print(f"Точность полносвязной сети (MLP): {mlp_test_acc:
 print(f"Точность свёрточной сети (CNN): {cnn_test_acc:.4f}")
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii7/blob/main/screenshot/3.JPG)
 
 **Вывод:**
 
@@ -264,7 +264,7 @@ else:
     print("Оценка моделей невозможна из-за ошибки загрузки.")
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii7/blob/main/screenshot/4.JPG)
 
 **Вывод:**
 
